@@ -1,32 +1,32 @@
 .navbar {
-    background-color: #333;
+    background-color: #264351;
     overflow: hidden;
   }
   
 .navbar a {
     float: left;
-    color: #f2f2f2;
+    color: #e4e5e7;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 24px;
     text-decoration: none;
     font-size: 17px;
 }
    
 .navbar a:hover {
-    background-color: whitesmoke;
-    color: black;
+    background-color: #89a7bf;
+    color: #264351;
 }
   
 .navbar a.active {
     background-color: #6e8095;
-    color: white;
+    color: #e4e5e7;
 }
 
 a.right-bar{
     float: right;
-    color: #f2f2f2;
+    color: #e4e5e7;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 24px;
     text-decoration: none;
     font-size: 17px;
 }
