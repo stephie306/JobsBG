@@ -1,6 +1,10 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
 .navbar {
     background-color: #264351;
     overflow: hidden;
+    margin-bottom: 25px;
   }
   
 .navbar a {
