@@ -37,7 +37,7 @@
                     <ul class="jobs-listing">
                     <li class="job-card">
                         <div class="job-primary">
-                            <h2 class="job-title"><a href="./static/single.php"><?php echo ($row['title']) ?></a></h2>
+                            <h2 class="job-title"><a href="./static/single.php?id=<?php echo $row['id']?>"><?php echo ($row['title']) ?></a></h2>
                             <div class="job-meta">
                                 <a class="meta-company"><?php echo ($row['company']) ?></a>
                             </div>

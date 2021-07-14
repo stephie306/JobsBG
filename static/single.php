@@ -25,6 +25,7 @@
 
     <?php
         require('../db.php');
+        $id = $_GET['id'];
         $query = "SELECT * FROM `submission` WHERE `id`=$id";
         $result = mysqli_query($con, $query) or die($con->error);
         $rows = mysqli_num_rows($result);
