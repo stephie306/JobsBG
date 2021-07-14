@@ -8,13 +8,13 @@ input[type=text] {
 }
 
 input[type=description] {
-    width: 100%;
-    height: 40%;
-    padding: 15px;
-    margin: 5px 0 22px 25px;
-    display: inline-block;
-    border: none;
-    background: #e4e5e7;
+  width: 100%;
+  height: 40%;
+  padding: 15px;
+  margin: 5px 0 22px 25px;
+  display: inline-block;
+  border: none;
+  background: #e4e5e7;
 }
 
 input[type=text]:focus{
@@ -63,14 +63,14 @@ button:hover {
 
 
 .label {
-    margin: 5px 0 5px 25px;
-    display: inline-block;
+  margin: 5px 0 5px 25px;
+  display: inline-block;
 }
 
 .img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15%;
-    width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  width: 70%;
 }

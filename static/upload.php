@@ -18,7 +18,27 @@
   </div>
   <div class="L">
 
-  <form action="">
+<?php
+    require('../db.php');
+    if (isset($_REQUEST['title'])) {
+        $title = stripslashes($_REQUEST['title']);
+        $title = mysqli_real_escape_string($con, $title);
+        $company = stripslashes($_REQUEST['company']);
+        $company = mysqli_real_escape_string($con, $company);
+        $salary = stripslashes($_REQUEST['salary']);
+        $salary = mysqli_real_escape_string($con, $salary);
+        $description = stripslashes($_REQUEST['description']);
+        $description = mysqli_real_escape_string($con, $description);
+        $query    = "INSERT into `submission` (title, company, salary, description)
+                     VALUES ('$title', '$company', '$salary', '$description')";
+        mysqli_query($con, $query);
+
+        
+    } else {
+?>
+
+
+  <form action="" method="post">
    
    <label class="label"><b>Title</b></label>
    <input type="text" placeholder="Enter Title" name="title" required>
@@ -37,7 +57,12 @@
    </div>
   </form>
 
-  </div>
+  
+<?php
+    }
+?>
+
+</div>
 </div>
 
 
