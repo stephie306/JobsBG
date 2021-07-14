@@ -7,9 +7,9 @@
  <body>
 
  <div class="navbar">
-        <a href="../index.php">Home</a>
-        <a href="./static/upload.php">Upload</a>
-        <a class="right-bar" href="../auth/login.php">Log-in</a>
+    <a href="../index.php">Home</a>
+    <a href="./static/upload.php">Upload</a>
+    <a class="right-bar" href="../auth/login.php">Log-in</a>
 </div>
 
 <div class="container">
@@ -34,7 +34,7 @@
         mysqli_query($con, $query);
 
         
-    } else {
+    } 
 ?>
 
 
@@ -50,17 +50,12 @@
    <input type="text" placeholder="Enter Salary" name="salary" required>
 
    <label class="label"><b>Description</b></label>
-   <input type="description" placeholder="Enter Description" name="description" required>
+   <textarea type="description" placeholder="Enter Description" name="description" required> </textarea>
    
    <div class="clearfix">
      <button type="submit" class="uploadbtn">Upload</button>
    </div>
   </form>
-
-  
-<?php
-    }
-?>
 
 </div>
 </div>
